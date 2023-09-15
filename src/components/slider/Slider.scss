@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=IBM+Plex+Sans+Thai:wght@700&display=swap');
+
+
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.banner {
+  background-color: black;
+}
+
+.banner-group {
+  position: absolute;
+  bottom: 0;
+  z-index: 40;
+}
+
+.banner-images{
+  width: 100%;
+  display: block;
+  height: 574px;
+  object-fit: cover;
+  object-position: center;
+
+; // This removes any default margin/padding of the image
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.banner-swiper .swiper-slide {
+  background: #000;
+}
+
+
+.banner-title {
+  padding-top: 149px;
+  color: #FFF;
+  text-align: left;
+  font-family: Inspiration;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 77px
+}
+
+
+.button-group {
+  padding-bottom: 47px;
+  gap: 22px;
+  display: flex;
+  padding-top: 53px;
+}
+
+
+.play-btn {
+  cursor: pointer;
+  width: 151px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 0px solid #000;
+  color: #000;
+  text-align: center;
+  font-family: IBM Plex Sans Thai;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 77px;
+  padding-left: 18px;
+}
+
+
+.more-btn {
+  cursor: pointer;
+  display: flex;
+  padding-left: 18px;
+  align-items: center;
+  width: 209px;
+  height: 48px;
+  background-color: #dddbdb;
+  color: white;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-family: IBM Plex Sans Thai;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 77px
+}
+/* Your existing Slider.scss */
+
